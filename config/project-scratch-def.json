@@ -1,7 +1,10 @@
 {
-    "orgName": "Demo Company",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
+  "orgName": "MyScratchOrg",
+  "edition": "Developer",
+  "features": [],
+  "settings": {
+    "orgPreferenceSettings": {
+      "recordTypes": "true"
     }
+  }
 }
