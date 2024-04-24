@@ -4,7 +4,15 @@
   "features": [],
   "settings": {
     "orgPreferenceSettings": {
-      "recordTypes": "true"
+      "recordTypes": true
     }
+  },
+  "orgPreferences": {
+    "enabled": [
+      "NetworksEnabled"
+    ]
+  },
+  "orgPreferencesSettings": {
+    "s1DesktopEnabled": true
   }
 }
