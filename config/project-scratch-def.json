@@ -6,12 +6,6 @@
     "orgPreferenceSettings": {
       "recordTypes": true,
       "org-capitalize-record-types": true
-    },
-    "orgPreferences": {
-      "enabled": [
-        "NetworksEnabled",
-        "S1DesktopEnabled"
-      ]
     }
   }
 }
