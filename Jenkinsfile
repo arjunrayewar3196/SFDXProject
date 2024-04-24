@@ -4,13 +4,11 @@ import groovy.json.JsonSlurperClassic
 
 node {
 
-    def SF_CONSUMER_KEY=env.SF_CONSUMER_KEY
-    def SF_USERNAME=env.SF_USERNAME
-    def SERVER_KEY_CREDENTALS_ID=env.SERVER_KEY_CREDENTALS_ID
+    def SF_CONSUMER_KEY= '3MVG9bZIBBVRES4Hzf9FMkOOIx1waCvLi4EkW8glpvAhN4XMM1lc3gpNxuD2s6Cd.5AfPJgZwUW0KS4yk.hTG'
+    def SF_USERNAME= 'rizzy@sapient.sandbox'
+    def SERVER_KEY_CREDENTALS_ID= "env.keyid"
     def TEST_LEVEL='RunLocalTests'
-    def PACKAGE_NAME='0Ho1U000000CaUzSAK'
-    def PACKAGE_VERSION
-    def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
+    def SF_INSTANCE_URL = "https://login.salesforce.com"
 
     def toolbelt = tool 'toolbelt'
 
