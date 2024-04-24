@@ -2,6 +2,7 @@
   "orgName": "MyScratchOrg",
   "edition": "Developer",
   "features": [],
+  
   "settings": {
     "orgPreferenceSettings": {
       "recordTypes": true
@@ -12,7 +13,4 @@
       "NetworksEnabled"
     ]
   },
-  "orgPreferencesSettings": {
-    "s1DesktopEnabled": true
-  }
 }
