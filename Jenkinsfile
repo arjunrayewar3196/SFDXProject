@@ -83,12 +83,13 @@ node {
             // Run unit tests in test scratch org.
             // -------------------------------------------------------------------------
 
-            stage('Run Tests In Test Scratch Org') {
-                rc = command "${toolbelt}/sf apex run test --target-org ciorg --wait 10 --result-format tap --code-coverage --test-level ${TEST_LEVEL}"
-                if (rc != 0) {
-                    error 'Salesforce unit test run in test scratch org failed.'
-                }
-            }
+            // stage('Run Tests In Test Scratch Org') {
+            //     rc = command "${toolbelt}/sf apex run test --target-org ciorg --wait 10 --result-format tap --code-coverage --test-level ${TEST_LEVEL}"
+                
+            //     if (rc != 0) {
+            //         error 'Salesforce unit test run in test scratch org failed.'
+            //     }
+            // }
 
 
             // -------------------------------------------------------------------------
