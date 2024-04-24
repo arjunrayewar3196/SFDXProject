@@ -2,10 +2,15 @@
   "orgName": "MyScratchOrg",
   "edition": "Developer",
   "features": [],
-  "settings": {
-    "orgPreferenceSettings": {
-      "recordTypes": true,
-      "org-capitalize-record-types": true
+   "settings": {
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "communitiesSettings": {
+            "enableNetworksEnabled": true
+        }
     }
-  }
 }
