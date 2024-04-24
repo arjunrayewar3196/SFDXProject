@@ -6,7 +6,6 @@ node {
 
     def SF_CONSUMER_KEY= '3MVG9bZIBBVRES4Hzf9FMkOOIx1waCvLi4EkW8glpvAhN4XMM1lc3gpNxuD2s6Cd.5AfPJgZwUW0KS4yk.hTG'
     def SF_USERNAME= 'rizzy@sapient.sandbox'
-    def SERVER_KEY_CREDENTALS_ID= "env.keyid"
     def TEST_LEVEL='RunLocalTests'
     def SF_INSTANCE_URL = "https://login.salesforce.com"
 
@@ -28,8 +27,9 @@ node {
     // -------------------------------------------------------------------------
     
     withEnv(["HOME=${env.WORKSPACE}"]) {
-        
-        withCredentials([file(credentialsId: SERVER_KEY_CREDENTALS_ID, variable: 'server_key_file')]) {
+
+
+        withCredentials([file(credentialsId: 'keyid', variable: 'server_key_file')]) {
 
             // -------------------------------------------------------------------------
             // Authorize the Dev Hub org with JWT key and give it an alias.
