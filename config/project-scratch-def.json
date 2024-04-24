@@ -2,15 +2,16 @@
   "orgName": "MyScratchOrg",
   "edition": "Developer",
   "features": [],
-  
   "settings": {
     "orgPreferenceSettings": {
-      "recordTypes": true
+      "recordTypes": true,
+      "org-capitalize-record-types": true
+    },
+    "orgPreferences": {
+      "enabled": [
+        "NetworksEnabled",
+        "S1DesktopEnabled"
+      ]
     }
-  },
-  "orgPreferences": {
-    "enabled": [
-      "NetworksEnabled"
-    ]
-  },
+  }
 }
